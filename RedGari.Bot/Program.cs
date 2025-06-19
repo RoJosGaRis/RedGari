@@ -18,7 +18,6 @@ namespace RedGari.Bot
             await builder.ConfigureServices((ctx,services) =>
             {
                 services.Configure<Settings>(ctx.Configuration.GetSection("Discord"));
-                //Console.WriteLine(ctx.Configuration.GetSection("Discord").ToString());
                 services.AddHostedService<BotService>();
                 services.AddSingleton<DiscordSocketClient>();
                 services.AddSingleton<CommandService>();

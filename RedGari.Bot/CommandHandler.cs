@@ -56,10 +56,6 @@ namespace RedGari.Bot
                 argPos:argPos,
                 services:_serviceProvider);
 
-            //if (msg.Author.IsBot || !msg.Content.StartsWith("!")) return;
-            //string result = "Sorry, I didn't understand that";
-
-            //await msg.Channel.SendMessageAsync(result);
 
         }
     }
