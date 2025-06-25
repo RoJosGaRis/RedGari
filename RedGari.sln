@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedGari.Infrastructure", "R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedGari.Tests", "RedGari.Tests\RedGari.Tests.csproj", "{E04B325B-A414-445A-A569-03BC51435906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedGari.Domain", "RedGari.Domain\RedGari.Domain.csproj", "{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{E04B325B-A414-445A-A569-03BC51435906}.Release|x64.Build.0 = Release|Any CPU
 		{E04B325B-A414-445A-A569-03BC51435906}.Release|x86.ActiveCfg = Release|Any CPU
 		{E04B325B-A414-445A-A569-03BC51435906}.Release|x86.Build.0 = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|x64.Build.0 = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Debug|x86.Build.0 = Debug|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|x64.ActiveCfg = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|x64.Build.0 = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|x86.ActiveCfg = Release|Any CPU
+		{2B8F3D02-62E5-4849-9EA1-DCB5DA86C90D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
