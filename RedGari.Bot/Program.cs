@@ -26,7 +26,6 @@ namespace RedGari.Bot
                 services.AddDbContext<CharacterDbContext>(options =>
                     options.UseNpgsql(ctx.Configuration.GetConnectionString("Postgres")));
                 services.Configure<Settings>(ctx.Configuration.GetSection("Discord"));
-                //Console.WriteLine(ctx.Configuration.GetSection("Discord").ToString());
                 services.AddHostedService<BotService>();
                 services.AddSingleton<DiscordSocketClient>();
                 services.AddSingleton<CommandService>();
