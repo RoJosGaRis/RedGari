@@ -34,7 +34,7 @@ RedGari/
 ### 🔧 Local (Development)
 
 ```bash
-git clone https://github.com/<your-handle>/RedGari
+git clone https://github.com/RoJosGaRis/RedGari
 cd RedGari
 
 # Set up your Discord token securely
